@@ -1,0 +1,75 @@
+# ============================================================
+# GriefPreventionEasyGUI Configuration
+# ============================================================
+
+# Language file to use. Available: "en" (lang.yml), "bg" (lang_bg.yml)
+# You can also create your own lang_xx.yml file and set language to "xx".
+language: "en"
+
+# ---- Feature Toggles ----
+
+# Enable/disable the onboarding message sent to new players on first join.
+onboarding-enabled: true
+
+# Delay (in seconds) before the onboarding message is shown after joining.
+onboarding-delay-seconds: 3
+
+# Enable/disable the Auto Claim button in the main menu.
+autoclaim-enabled: true
+
+# Enable/disable the Give Shovel button in the main menu.
+shovel-enabled: true
+
+# Enable/disable the claim resize feature (button in claim info).
+resize-enabled: true
+
+# Enable/disable the claim teleport feature (button in claim info).
+teleport-enabled: true
+
+# Enable/disable the abandon claim feature (button in claim info).
+abandon-enabled: true
+
+# ---- Shovel Settings ----
+
+# Cooldown (in seconds) before a player can get another golden shovel. Set to 0 to disable.
+shovel-cooldown-seconds: 3600
+
+# ---- Teleport Settings ----
+
+# Delay (in seconds) before teleporting to a claim. Player must not move during this time.
+teleport-delay-seconds: 3
+
+# ---- AutoClaim Preset Sizes ----
+
+# Side length (in blocks) for each preset claim size.
+autoclaim-sizes:
+  small: 10
+  medium: 20
+  large: 30
+
+# ---- Visualizer Settings ----
+
+# Should the particle boundary visualizer be enabled server-wide?
+# If false, the visualizer button is hidden and no particles are rendered.
+# Players can individually toggle their own visualizer via the GUI.
+visualizer-enabled: true
+
+# How far (in blocks) claim boundaries are rendered around each player.
+visualizer-radius: 60
+
+# How often (in ticks) particles are refreshed. Lower = smoother but more CPU. (20 ticks = 1 second)
+visualizer-interval-ticks: 10
+
+# Maximum particles rendered per player per cycle. Increase for larger claims, decrease for performance.
+visualizer-max-particles: 1000
+
+# Height (in blocks) of the particle wall along claim edges.
+visualizer-wall-height: 2
+
+# ---- Chat Input Settings ----
+
+# How long (in seconds) a player has to type a response in chat before it times out.
+chat-input-timeout-seconds: 60
+
+# How many invalid inputs before the prompt is cancelled.
+chat-input-max-failures: 2
