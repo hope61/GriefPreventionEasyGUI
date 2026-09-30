@@ -1,7 +1,7 @@
 name: GriefPreventionEasyGUI
-version: '1.5'
+version: '1.6'
 main: org.hope.griefPreventionEasyGUI.GriefPreventionEasyGUI
-api-version: '26.2'
+api-version: '26.3'
 depend: [GriefPrevention]
 
 commands:
