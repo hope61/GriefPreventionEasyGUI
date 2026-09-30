@@ -22,7 +22,7 @@ New players get a one-time clickable onboarding message on join.
 
 - Paper 1.21+ (or any Paper fork)
 - [GriefPrevention](https://github.com/GriefPrevention/GriefPrevention)
-- Java 21+
+- Java 25+
 
 ## Installation
 
